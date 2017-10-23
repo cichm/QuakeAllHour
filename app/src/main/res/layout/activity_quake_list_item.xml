@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:paddingBottom="4sp"
+        android:paddingTop="4sp"
+        android:textSize="16sp"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:id="@+id/place"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:paddingBottom="2sp"
+        android:paddingTop="4sp"
+        android:textSize="@dimen/second_size_text"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/time"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:paddingBottom="2sp"
+        android:paddingTop="2sp"
+        android:textSize="@dimen/second_size_text"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/url"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:paddingBottom="2sp"
+        android:paddingTop="2sp"
+        android:textSize="@dimen/second_size_text"
+        android:textStyle="bold"
+        android:autoLink="web"/>
+
+    <TextView
+        android:id="@+id/mag"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:paddingBottom="2sp"
+        android:paddingTop="2sp"
+        android:textSize="@dimen/second_size_text"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/coordinates"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:paddingBottom="2sp"
+        android:paddingTop="2sp"
+        android:textSize="@dimen/second_size_text"
+        android:textStyle="bold" />
+
+</LinearLayout>
